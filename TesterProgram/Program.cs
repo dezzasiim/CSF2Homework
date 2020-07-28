@@ -20,6 +20,18 @@ namespace TesterProgram
 
             Student s2 = new Student("Davie", "Davison", "12345", 4);
             Console.WriteLine(s2);
+
+            Vehicle v1 = new Vehicle("Ford", "Fiesta", 1996, 2045);
+            Console.WriteLine(v1);
+
+            Vehicle v2 = new Vehicle();
+            v2.Make = "Dodge";
+            v2.Model = "Intrepid";
+            v2.Year = 1998;
+                v2.Weight = 2929;
+            Console.WriteLine(v2);
+
+
         }
         
     }
