@@ -39,6 +39,17 @@ namespace TesterProgram
             Login L2 = new Login("Harry", "Harry's password");
             Console.WriteLine(L2);
 
+            ContactInfo c1 = new ContactInfo("1234 Mayflower Dr.", "Denver", "CO", "64601", "6460211", "Hoba@aol.com");
+            Console.WriteLine(c1);
+
+            ContactInfo c2 = new ContactInfo();
+            c2.StreetAddress = "2435 Rocky Rd.";
+            c2.City = "Belmont";
+            c2.State = "Me";
+            c2.Zip = "75758";
+            c2.Phone = "7578484";
+            c2.Email = "hoba2@yahoo.com";
+            Console.WriteLine(c2);
 
         }
         
