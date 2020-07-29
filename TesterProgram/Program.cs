@@ -15,7 +15,7 @@ namespace TesterProgram
             s1.FirstName = "Johnny";
             s1.LastName = "Johnson";
             s1.Id = "543321";
-            s1.Gpa = 3;//couldnt enter in decimal places, why is that?
+            s1.Gpa = 3.3f;//couldnt enter in decimal places, why is that?
             Console.WriteLine(s1);
 
             Student s2 = new Student("Davie", "Davison", "12345", 4);
@@ -28,7 +28,7 @@ namespace TesterProgram
             v2.Make = "Dodge";
             v2.Model = "Intrepid";
             v2.Year = 1998;
-                v2.Weight = 2929;
+            v2.Weight = 2929;
             Console.WriteLine(v2);
 
             Login L1 = new Login();
@@ -50,6 +50,9 @@ namespace TesterProgram
             c2.Phone = "7578484";
             c2.Email = "hoba2@yahoo.com";
             Console.WriteLine(c2);
+
+            Customer cust1 = new Customer("73838", "Barry", "Bouncealot", new ContactInfo("1244","Burg","MO","67859","6868888","yop@aol.com"));
+            Console.WriteLine("\n"+ cust1);
 
         }
         
