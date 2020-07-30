@@ -119,7 +119,15 @@ namespace TesterProgram
             pleasureWay.NumberOfBeds = 899;
             Console.WriteLine(pleasureWay + "\n");
 
-
+            Truck tundra = new Truck("Toyota", "Tundra", 2020, 5000, 5000);
+            Console.WriteLine(tundra);
+            Truck chevy = new Truck();
+            chevy.Make = "Chevy";
+            chevy.Model = "Silverado";
+            chevy.Year = 2020;
+            chevy.Weight = 5000;
+            chevy.LoadCapacityLbs = 5000;
+            Console.WriteLine(chevy);
 
 
         }
