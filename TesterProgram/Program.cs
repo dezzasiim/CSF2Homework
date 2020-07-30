@@ -107,7 +107,20 @@ namespace TesterProgram
             cd2.Tracks = tracks;
             cd2.Title = "csf2";
             cd2.Genre = "SOFTWARE WRAP";
-            Console.WriteLine(cd2);
+            Console.WriteLine(cd2 + "\n");
+
+            MotorHome sportsMobile = new MotorHome("Mercedes", "Sprinter", 2020, 5000, 6);
+            Console.WriteLine(sportsMobile + "\n");
+            MotorHome pleasureWay = new MotorHome();
+            pleasureWay.Make = "Zimbabwe";
+            pleasureWay.Model = "Zaire";
+            pleasureWay.Year = 9999;
+            pleasureWay.Weight = 0;
+            pleasureWay.NumberOfBeds = 899;
+            Console.WriteLine(pleasureWay + "\n");
+
+
+
 
         }
         
