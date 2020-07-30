@@ -51,43 +51,54 @@ namespace TesterProgram
             //c2.Email = "hoba2@yahoo.com";
             //Console.WriteLine(c2);
 
-            Customer cust1 = new Customer("73838", "Barry", "Bouncealot", new ContactInfo("1244","Burg","MO","67859","6868888","yop@aol.com"));
-            Console.WriteLine("\n"+ cust1);
+            //Customer cust1 = new Customer("73838", "Barry", "Bouncealot", new ContactInfo("1244","Burg","MO","67859","6868888","yop@aol.com"));
+            //Console.WriteLine("\n"+ cust1);
 
-            Customer cust2 = new Customer();
-            cust2.CustomerId = "1234";
-            cust2.FirstName = "Susie";
-            cust2.LastName = "Barrington";
-            cust2.ContactInformation = new ContactInfo("12 Launch Ln", "chilli", "mo", "64692", "7478383", "he@aol.com");
-            Console.WriteLine("\n"+cust2);
+            //Customer cust2 = new Customer();
+            //cust2.CustomerId = "1234";
+            //cust2.FirstName = "Susie";
+            //cust2.LastName = "Barrington";
+            //cust2.ContactInformation = new ContactInfo("12 Launch Ln", "chilli", "mo", "64692", "7478383", "he@aol.com");
+            //Console.WriteLine("\n"+cust2);
 
-            CreditCardAccount CCA1 = new CreditCardAccount(1234, new Customer("1234", "Bob", "Smith", new ContactInfo("12 St.", "hapsburg", "MO", "64601", "6460111", "Hoj@aol.com")), 239.32m, true, 22.5m);
-            Console.WriteLine("\n"+CCA1);
+            //CreditCardAccount CCA1 = new CreditCardAccount(1234, new Customer("1234", "Bob", "Smith", new ContactInfo("12 St.", "hapsburg", "MO", "64601", "6460111", "Hoj@aol.com")), 239.32m, true, 22.5m);
+            //Console.WriteLine("\n"+CCA1);
 
-            CreditCardAccount CCA2 = new CreditCardAccount();
-            CCA2.AccountNumber =74747;
-            CCA2.CustomerInfo = new Customer("1324", "Jonnhy", "Samuels", new ContactInfo("12 Rd", "KC", "MO", "64052", "646474", "hap@aol.com"));
-            CCA2.Balance = 294.30m;
-            CCA2.IsPastDue = false;
-            CCA2.AnnualInterestRate = 4.4m;
-            Console.WriteLine("\n"+CCA2);
+            //CreditCardAccount CCA2 = new CreditCardAccount();
+            //CCA2.AccountNumber =74747;
+            //CCA2.CustomerInfo = new Customer("1324", "Jonnhy", "Samuels", new ContactInfo("12 Rd", "KC", "MO", "64052", "646474", "hap@aol.com"));
+            //CCA2.Balance = 294.30m;
+            //CCA2.IsPastDue = false;
+            //CCA2.AnnualInterestRate = 4.4m;
+            //Console.WriteLine("\n"+CCA2);
 
-            Book bk1 = new Book("How to win", "Dale Carnegie", 542);
-            Console.WriteLine("\n" + bk1);
-            Book bk2 = new Book("7 habits", "Stephen Colvey", 833);
-            Console.WriteLine("\n"+bk2);
+            //Book bk1 = new Book("How to win", "Dale Carnegie", 542);
+            //Console.WriteLine("\n" + bk1);
+            //Book bk2 = new Book();
+            //bk2.Title = "7Habits";
+            //bk2.Author = "Stephen Colvey";
+            //bk2.NumberOfPages = 784;
+            //Console.WriteLine("\n"+bk2);
 
-            List<Book> books = new List<Book>() { bk1, bk2 };
-            Library lb1 = new Library(books,"Livingston", "123 Clay", "chiill","MO","74740");
-            Console.WriteLine("\n"+ lb1);
-            Library lb2 =new Library();
-            lb2.Books = books;
-            lb2.LibraryName = "grundy";
-            lb2.StreetAddress = "422 Mud";
-            lb2.City = "trenton";
-            lb2.State = "MO";
-            lb2.Zip = "84848";
-            Console.WriteLine("\n"+lb2);
+            //List<Book> books = new List<Book>() { bk1, bk2 };
+            //Library lb1 = new Library(books,"Livingston", "123 Clay", "chiill","MO","74740");
+            //Console.WriteLine("\n"+ lb1);
+            //Library lb2 =new Library();
+            //lb2.Books = books;
+            //lb2.LibraryName = "grundy";
+            //lb2.StreetAddress = "422 Mud";
+            //lb2.City = "trenton";
+            //lb2.State = "MO";
+            //lb2.Zip = "84848";
+            //Console.WriteLine("\n"+lb2);
+
+            Song s1 = new Song("McFly", "Missin U", 5555);
+            Console.WriteLine(s1);
+            Song s2 = new Song();
+            s2.Artist = "Rickfly";
+            s2.Title = "Dissin u";
+            s2.LengthInSeconds = 4444;
+            Console.WriteLine(s2);
 
         }
         
