@@ -76,6 +76,19 @@ namespace TesterProgram
             Console.WriteLine("\n" + bk1);
             Book bk2 = new Book("7 habits", "Stephen Colvey", 833);
             Console.WriteLine("\n"+bk2);
+
+            List<Book> books = new List<Book>() { bk1, bk2 };
+            Library lb1 = new Library(books,"Livingston", "123 Clay", "chiill","MO","74740");
+            Console.WriteLine("\n"+ lb1);
+            Library lb2 =new Library();
+            lb2.Books = books;
+            lb2.LibraryName = "grundy";
+            lb2.StreetAddress = "422 Mud";
+            lb2.City = "trenton";
+            lb2.State = "MO";
+            lb2.Zip = "84848";
+            Console.WriteLine("\n"+lb2);
+
         }
         
     }
