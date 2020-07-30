@@ -98,7 +98,16 @@ namespace TesterProgram
             s2.Artist = "Rickfly";
             s2.Title = "Dissin u";
             s2.LengthInSeconds = 4444;
-            Console.WriteLine(s2);
+            Console.WriteLine(s2+ "\n");
+
+            List<Song> tracks = new List<Song>() { s1, s2 };
+            Artist cd1 = new Artist(tracks, "CSF2", "Hard-Core Rap");
+            Console.WriteLine(cd1 + "\n");
+            Artist cd2 = new Artist();
+            cd2.Tracks = tracks;
+            cd2.Title = "csf2";
+            cd2.Genre = "SOFTWARE WRAP";
+            Console.WriteLine(cd2);
 
         }
         
